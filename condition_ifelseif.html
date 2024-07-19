@@ -1,0 +1,164 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+    // Date 객체를 선언합니다: 현재 시간 측정
+    var date = new Date();
+    var hours = date.getHours();
+
+    // 조건문
+    if (hours < 5) {
+        alert('잠을 자렴....');
+    } else if (hours < 7) {
+        alert('준비');
+    } else if (hours < 9) {
+        alert('출근');
+    } else if (hours < 12) {
+        alert('빈둥빈둥');
+    } else if (hours < 14) {
+        alert('식사');
+    } else {
+        // 여러 가지 업무를 수행합니다.
+    }
+</script> -->
+
+<!-- <script>
+    for( let i = 0; i<5; i++){
+        alert('출력');
+    }
+</script> -->
+
+<!-- <script>
+    let array = [273, '문자열', true, function () {}, {}, [32, 103]];
+    alert(array);
+</script> -->
+    <!-- <script>
+ 
+        let array = ['가','혜','준','라'];
+        array[0] = '김'
+        alert(array[0]);
+        alert(array[1]);
+        alert(array[2]);
+        alert(array[3]);
+    
+    </script> -->
+    <!-- <script>
+        let i = 0;
+        let array =['가', '나','다']
+
+        // while (i<array.length){
+        //     alert(i +'번째 출력: ' + array[i]);
+        //     i++;
+        // }
+        for(let i = 0; i < 3; i++){
+            alert(i+ '번째 출력:'+ array[i]);
+        }
+    </script> -->
+
+    <!-- <script>
+        let start = new Date().getTime();
+        let count = 0;
+
+        while (start + 1000> new Date().getTime()){
+            count++;
+        }
+        alert(count + '만큼 반복했습니다.')
+    </script>
+    <script>
+        let output =0;
+        for(let i = 0; i<100; i++){
+            output+=i;
+        }
+        alert(output);
+    </script> -->
+
+    <!-- <script>
+        window.onload =function(){
+            let header =document.querySelectorAll('h1'); // 해당하는 하나만 적용
+            header.style.color ='yellow';
+            header.style.background = '#BB2649';
+            header.innerHTML = 'From JavaScript'
+        }
+    </script> -->
+
+      <!-- <script>
+        // 이벤트를 연결합니다.
+        window.onload = function () {
+            // 문서 객체를 선택합니다.
+            var headers = document.querySelectorAll('h1');
+
+            for (var i = 0; i < headers.length; i++) {
+                // 변수를 선언합니다.
+                var header = headers[i];
+
+                // 문서 객체를 조작합니다.
+                header.style.color = '#D6EFD8';
+                header.style.background = '#508D4E';
+                header.innerHTML = 'From JavaScript';
+            }
+        };
+    </script> -->
+<!-- 
+    <script>
+        window.onload = function () {
+    var output = '';
+    for (var i = 0; i < 256; i++) {
+        output += '<div></div>';
+    }
+    document.body.innerHTML = output;
+
+    var divs = document.querySelectorAll('div');
+    for (var i = 0; i < divs.length; i++) {
+        var div = divs[i];
+        div.style.height = '2px';
+
+        // 그라데이션 색상 적용
+        var r = Math.floor(i);
+        var g = Math.floor(i / 2);
+        var b = 255 - Math.floor(i);
+        div.style.background = 'rgb(' + r + ',' + g + ',' + b + ')';
+    }
+};
+    </script> -->
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Basic</title>
+    <!-- <script>
+        // 이벤트를 연결합니다.
+        window.onload = function () {
+            // 변수를 선언합니다.
+            var image = document.getElementById('image');
+
+            // 속성을 변경합니다.
+            image.src = 'http://placehold.it/800x600';
+            image.width = 800;
+            image.height = 600;
+        };
+    </script> -->
+    <button id="button">버튼-</button>
+    <script>
+        document.getElementById('button').onclick = function (){
+            this.textContent = this.textContent + '♬';
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+</head>
+
+
+</body>
+
+
+</html>
